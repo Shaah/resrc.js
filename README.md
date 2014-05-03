@@ -3,7 +3,7 @@
 
 ## Source Code Available Soon!
 
-resrs.js is a small responsive image JavaScript library that produces pixel perfect responsive images on demand.
+resrc.js is a small responsive image JavaScript library that produces pixel perfect responsive images on demand.
 The library requires for your images to be served via [ReSRC](http://www.resrc.it) - The Responsive Image Service.
 Link your images to our simple service and let us take care of everything!
 
