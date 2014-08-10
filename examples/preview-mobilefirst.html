@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>ReSRC Preview / Mobile First Example</title>
+  <style>.resrc {width:100%}</style>
+  <!-- 1. Load the resrc.js library -->
+  <script src="//use.resrc.it/0.8"></script>
+  <!-- 2. On DOM Ready, Execute resrc -->
+  <script>
+    resrc.ready(function() {
+      resrc.resrc();
+    });
+  </script>
+</head>
+<body>
+<!--
+We initially load a highly optimized 320px wide image at 60% compression that the browser downloads.
+Once resrc is ready we swap this out with the responsive dynamic image with 85% compression.
+We prefix the image path with some resrc parameter api's (http://app.resrc.it/s=w320/o=60(85)/)
+Read the documentation: http://www.resrc.it/docs to learn about our url api.
+-->
+<img src="http://app.resrc.it/s=w320/o=60(85)/http://www.your-site.co/image.jpg" class="resrc" />
+</body>
+</html>

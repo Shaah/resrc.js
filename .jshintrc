@@ -1,0 +1,13 @@
+{
+  "browser" : true,
+  "curly" : true,
+  "eqeqeq" : true,
+  "newcap" : true,
+  "strict" : true,
+  "trailing" : false,
+  "unused": true,
+  "quotmark" : "double",
+  "-W030" : false, // Needed to pass linting of the domReady function (Expected an assignment or function call and instead saw an expression.)
+  "-W084" : false, // Needed to pass linting of the domReady function (Expected a conditional expression and instead saw an assignment)
+  "-W093" : false  // Needed to pass linting of the domReady function (Did you mean to return a conditional instead of an assignment?)
+}

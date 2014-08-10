@@ -1,0 +1,6 @@
+/**
+ * ReSRCit v0.8.0
+ * http://www.resrc.it
+ * Copyright (C) 2014 ReSRC Ltd.
+ */
+
